@@ -12,6 +12,26 @@ I built a machine learning model using logistic regression to address the second
 
 I wrote a blog post to walk through the step I took to achieve the result. The medium blog post can be accessed [here](https://linnndachen.medium.com/starbucks-offer-dataset-udacity-capstone-7b562843ff47).
 
+## Main Files: Project Structure
+```
+├── data          
+|   ├── portfolio.json
+|   ├── profile.json
+|   └──transcript.json
+|
+├── README.md
+|
+├── Starbucks_Capstone_notebook.ipynb 
+|
+├── firstEvent.pkl
+└── secondEvent.pkl
+```
+The *data* folder contains the 3 datasets provided by Udacity.
+
+The *Starbucks_Capstone_notebook.ipynb* is where all the analysis is.
+
+The last two pickel files are two dataframes which took a long time to process during my analysis. They are saved in pickel files so that it only need to be run for 1 time.
+
 ## Tech Stack
 - **Python3** is the main language.
 - **Numpy**, **Pandas**, **matplotlib**, **seaborn**, and **sklearn** are the main packages that were used.
